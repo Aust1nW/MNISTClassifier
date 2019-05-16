@@ -1,0 +1,35 @@
+First I started with the base configuration given in the MNISTCnv.py file, and
+tried to increase the number of neurons per layer to capture more details about each image.
+
+An example configuration would be:
+
+Input Layer
+1 Conv2D layer with 64 neurons
+1 MaxPool layer
+1 Conv2D layer with 128 neurons
+1 MaxPool layer
+1 Conv2D layer with 128 neurons
+1 Flatten
+1 Dense layer with 64 neurons
+1 Dense layer with 10 neurons
+
+ After trying many configurations, nothing was breaking 99.10% accuracy, so I decided to add
+ more convolutional layers after the first two Conv2D layers
+
+ Ultimately I found the best configuration to be:
+
+ 1 Conv2D layer with 32 neurons
+ 1 Conv2D layer with 32 neurons
+ 1 MaxPool2D layer
+ 1 Conv2D layer with 64 neurons
+ 1 Conv2D layer with 64 neurons
+ 1 MaxPool2D layer
+ 1 Conv2D layer with 64 neurons
+ 1 Flatten
+ 1 Dense layer with 128 neurons
+ 1 Dropout layer 0.5
+ 1 Dense layer 10 neurons
+
+ My main issue was that I was overfitting very early on, so I added a Dropout layer to combat this
+
+ Final accuracy: 99.42%

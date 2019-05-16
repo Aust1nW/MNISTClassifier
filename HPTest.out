@@ -1,0 +1,41 @@
+
+channels: 32 dropout 1.0 reg None
+channels: 32 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+channels: 128 dropout 1.0 reg None
+dropout 0.5 reg None
+Best validation at epoch 2 with loss 0.03618 and accuracy 0.9912
+channels: 32 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+channels: 128 dropout 1.0 reg None
+dropout 0.5 reg None
+Best validation at epoch 2 with loss 0.04509 and accuracy 0.9902
+channels: 64 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+dropout 0.5 reg None
+Best validation at epoch 1 with loss 0.06053 and accuracy 0.9856
+channels: 32 dropout 1.0 reg None
+channels: 32 dropout 1.0 reg None
+channels: 32 dropout 1.0 reg None
+channels: 32 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+dropout 0.5 reg None
+Best validation at epoch 2 with loss 0.05529 and accuracy 0.9875
+channels: 32 dropout 1.0 reg None
+channels: 32 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+channels: 64 dropout 1.0 reg None
+channels: 1200 dropout 1.0 reg None
+dropout 0.5 reg None
+Best validation at epoch 2 with loss 0.05396 and accuracy 0.9889
